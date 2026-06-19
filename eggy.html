@@ -224,7 +224,10 @@
       line-height: 1;
       letter-spacing: -0.06em;
     }
-
+    .privacy-note {
+      color: var(--muted);
+      font-size: 16px;
+    }
 
     footer {
       display: flex;
@@ -264,6 +267,7 @@
       <a href="#features">Features</a>
       <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
+      <a href="privacy.html" target="_blank" rel="noopener noreferrer">Privacy</a>
     </nav>
   </header>
 
@@ -321,12 +325,20 @@
           Contact us through the app or
           <a id="support-email-link" href="#contact">email support</a>.
         </p>
+        <p class="privacy-note">
+          FlagSearch may use third-party services such as Google AdMob to display
+          advertisements. These services may collect information as described in
+          their own privacy policies. Read the full
+          <a href="privacy_eggy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+        </p>
       </div>
     </section>
   </main>
 
   <footer>
     <span>© 2026 Eggy</span>
+    <span><a href="privacy_eggy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a></span>
+
   </footer>
   <script>
     const supportLink = document.getElementById("support-email-link");
