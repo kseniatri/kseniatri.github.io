@@ -1,0 +1,107 @@
+<title>Eggy – Egg Timer</title>
+<meta name="description" content="A beautifully simple egg timer for iPhone with Lock Screen widgets and Dynamic Island support.">
+
+...
+
+<span>Eggy</span>
+
+<nav aria-label="Main navigation">
+  <a href="#features">Features</a>
+  <a href="#contact">Support</a>
+  <a href="privacy.html">Privacy</a>
+</nav>
+
+...
+
+<h1 id="hero-title">The classic egg timer, reimagined.</h1>
+
+<p class="lead">
+Twist the egg, set a timer up to 120 minutes and stay focused.
+Beautifully simple, designed for iPhone.
+</p>
+
+<a class="button" href="YOUR_APP_STORE_LINK">
+Download on the App Store
+</a>
+
+<img class="hero-image"
+     src="assets/main.png"
+     alt="Eggy app showing the egg timer and Lock Screen widget.">
+
+...
+
+<h2 class="section-title">Features</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Twist to start</h3>
+<p>Set any timer from 1 to 120 minutes with a simple turn.</p>
+</div>
+
+<div class="card">
+<h3>Authentic timer sound</h3>
+<p>Enjoy the satisfying ring of a classic mechanical egg timer.</p>
+</div>
+
+<div class="card">
+<h3>Lock Screen & Live Activities</h3>
+<p>See your remaining time without unlocking your iPhone.</p>
+</div>
+
+<div class="card">
+<h3>Dynamic Island</h3>
+<p>Keep your timer visible while using other apps.</p>
+</div>
+
+<div class="card">
+<h3>Light & Dark Mode</h3>
+<p>Designed to look beautiful day and night.</p>
+</div>
+
+<div class="card">
+<h3>No distractions</h3>
+<p>No accounts. No setup. Just twist and go.</p>
+</div>
+
+</div>
+
+...
+
+<section id="contact">
+
+<div class="contact-card">
+
+<h2>Need help?</h2>
+
+<p>
+Questions, suggestions or feedback?
+<a id="support-email-link" href="#">Email us</a>.
+</p>
+
+<p class="privacy-note">
+Eggy does not collect or sell your personal information.
+Read our
+<a href="privacy.html">Privacy Policy</a>.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<span>© 2026 Eggy</span>
+
+<span>
+<a href="privacy.html">Privacy Policy</a>
+</span>
+
+</footer>
+
+<script>
+const supportLink = document.getElementById("support-email-link");
+const address = ["YOUR_EMAIL","gmail.com"].join("@");
+supportLink.href =
+`mailto:${address}?subject=${encodeURIComponent("Eggy Support")}`;
+</script>
